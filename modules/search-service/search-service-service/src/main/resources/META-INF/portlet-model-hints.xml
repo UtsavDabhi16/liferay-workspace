@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.searchservice.model.Student">
+		<field name="studentId" type="int" />
+		<field name="name" type="String" />
+		<field name="lastname" type="String" />
+		<field name="std" type="String" />
+		<field name="address" type="String" />
+		<field name="phone" type="String" />
+		<field name="gender" type="String" />
+	</model>
+</model-hints>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custom-sql>
+    <sql id="getStudentFirstName">
+        <![CDATA[
+            SELECT *
+            FROM stud_Student
+            WHERE firstName = ?
+        ]]>
+    </sql>
+
+    <sql id="removeByFirstName">
+        <![CDATA[
+            DELETE
+            FROM stud_Student
+            WHERE firstName = ?
+        ]]>
+    </sql>
+
+    <sql id="getForPagination">
+        <![CDATA[
+            SELECT *
+            FROM stud_Student
+            LIMIT 0,1
+               ]]>
+    </sql>
+
+</custom-sql>

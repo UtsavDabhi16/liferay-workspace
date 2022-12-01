@@ -1,0 +1,4 @@
+Bundle-Name: democrud
+Bundle-SymbolicName: crud
+Bundle-Version: 1.0.0
+Export-Package: crud.constants

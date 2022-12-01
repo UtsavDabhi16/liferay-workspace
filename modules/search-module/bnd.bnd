@@ -1,0 +1,4 @@
+Bundle-Name: search-module
+Bundle-SymbolicName: com.searchmodule
+Bundle-Version: 1.0.0
+Export-Package: com.searchmodule.constants

@@ -1,0 +1,9 @@
+apiDir: "../headless-apps-api/src/main/java"
+apiPackagePath: "headless.apps"
+application:
+    baseURI: "/headless-apps"
+    className: "HeadlessAppsApplication"
+    name: "HeadlessApps"
+author: "root328"
+clientDir: "../headless-apps-client/src/main/java"
+testDir: "../headless-apps-test/src/testIntegration/java"

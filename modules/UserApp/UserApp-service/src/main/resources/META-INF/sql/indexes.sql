@@ -1,0 +1,1 @@
+create index IX_5050557E on HeadLess_UserApp (uuid_[$COLUMN_LENGTH:75$]);

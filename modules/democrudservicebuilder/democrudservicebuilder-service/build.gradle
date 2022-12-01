@@ -1,0 +1,21 @@
+dependencies {
+	compile project(":modules:democrudservicebuilder:democrudservicebuilder-api")
+	compile group: 'com.liferay', name: 'com.liferay.portal.dao.orm.custom.sql.api', version: '1.0.0'
+// 	compile group: "com.liferay", name: "com.liferay.gradle.plugins.wsdd.builder", version: "1.0.9"
+    compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+// repositories {
+//        maven {
+//            url "https://repository-cdn.liferay.com/nexus/content/groups/public"
+//        }
+//    }
+
+buildService {
+
+	apiDir = "../democrudservicebuilder-api/src/main/java"
+}
+
+group = "democrudservice"
+
+//apply plugin: "com.liferay.portal.tools.wsdd.builder"

@@ -1,0 +1,4 @@
+Bundle-Name: dynamic-blog-module
+Bundle-SymbolicName: com.blog
+Bundle-Version: 1.0.0
+Export-Package: com.blog.constants

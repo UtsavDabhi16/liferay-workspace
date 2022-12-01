@@ -1,0 +1,10 @@
+Bundle-Name: search-service-api
+Bundle-SymbolicName: com.searchservice.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.searchservice.exception,\
+	com.searchservice.model,\
+	com.searchservice.service,\
+	com.searchservice.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../search-service-service/service.xml

@@ -1,0 +1,4 @@
+Bundle-Name: linkedin
+Bundle-SymbolicName: com.linkedin
+Bundle-Version: 1.0.0
+Export-Package: com.linkedin.constants

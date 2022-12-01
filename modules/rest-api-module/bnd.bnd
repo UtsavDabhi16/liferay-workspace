@@ -1,0 +1,4 @@
+Bundle-Name: rest-api-module
+Bundle-SymbolicName: com.inexture.rest.api.module
+Bundle-Version: 1.0.0
+Liferay-Configuration-Path: /configuration

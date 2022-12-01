@@ -1,0 +1,7 @@
+Bundle-Name: ThemeContributor
+Bundle-SymbolicName: themecontributor
+Bundle-Version: 1.0.0
+Liferay-Theme-Contributor-Type: my-contributor
+Web-ContextPath: /my-contributor-theme-contributor
+Liferay-Theme-Contributor-Weight: 1
+

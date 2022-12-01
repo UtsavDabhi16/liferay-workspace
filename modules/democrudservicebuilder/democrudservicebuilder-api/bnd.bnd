@@ -1,0 +1,10 @@
+Bundle-Name: democrudservicebuilder-api
+Bundle-SymbolicName: democrudservice.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	democrudservice.exception,\
+	democrudservice.model,\
+	democrudservice.service,\
+	democrudservice.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../democrudservicebuilder-service/service.xml

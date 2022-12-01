@@ -1,0 +1,4 @@
+Bundle-Name: dummy
+Bundle-SymbolicName: dummy
+Bundle-Version: 1.0.1
+Export-Package: dummy.constants

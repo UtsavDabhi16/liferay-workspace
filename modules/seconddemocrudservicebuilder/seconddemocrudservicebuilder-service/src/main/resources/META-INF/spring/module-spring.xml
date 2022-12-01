@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<beans
+	default-destroy-method="destroy"
+	default-init-method="afterPropertiesSet"
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+>
+	<bean class="com.seconddemo.builder.service.impl.EmployeeLocalServiceImpl" id="com.seconddemo.builder.service.EmployeeLocalService" />
+	<bean class="com.seconddemo.builder.service.impl.EmployeeServiceImpl" id="com.seconddemo.builder.service.EmployeeService" />
+	<bean class="com.seconddemo.builder.service.persistence.impl.EmployeeModelArgumentsResolver" id="com.seconddemo.builder.service.persistence.impl.EmployeeModelArgumentsResolver" />
+	<bean class="com.seconddemo.builder.service.persistence.impl.EmployeePersistenceImpl" id="com.seconddemo.builder.service.persistence.EmployeePersistence">
+		<property name="dataSource" ref="hello" />
+	</bean>
+</beans>

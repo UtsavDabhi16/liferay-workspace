@@ -1,0 +1,4 @@
+Bundle-Name: brijesh
+Bundle-SymbolicName: hello.brij
+Bundle-Version: 1.0.0
+Export-Package: hello.brij.constants

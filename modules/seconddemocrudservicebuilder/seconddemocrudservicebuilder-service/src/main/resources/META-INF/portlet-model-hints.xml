@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.seconddemo.builder.model.Employee">
+		<field name="uuid" type="String" />
+		<field name="eid" type="int" />
+		<field name="ename" type="String" />
+	</model>
+</model-hints>

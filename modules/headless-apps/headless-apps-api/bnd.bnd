@@ -1,0 +1,6 @@
+Bundle-Name: headless-apps-api
+Bundle-SymbolicName: headless.apps.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	headless.apps.dto.v1_0,\
+	headless.apps.resource.v1_0

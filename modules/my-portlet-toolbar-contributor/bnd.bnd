@@ -1,0 +1,3 @@
+Bundle-Name: my-portlet-toolbar-contributor
+Bundle-SymbolicName: com.liferay.docs.contributor
+Bundle-Version: 1.0.0

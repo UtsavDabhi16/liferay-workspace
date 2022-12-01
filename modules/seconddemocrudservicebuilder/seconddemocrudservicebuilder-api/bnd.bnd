@@ -1,0 +1,10 @@
+Bundle-Name: seconddemocrudservicebuilder-api
+Bundle-SymbolicName: com.seconddemo.builder.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.seconddemo.builder.exception,\
+	com.seconddemo.builder.model,\
+	com.seconddemo.builder.service,\
+	com.seconddemo.builder.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../seconddemocrudservicebuilder-service/service.xml

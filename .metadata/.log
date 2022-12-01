@@ -1,0 +1,25 @@
+!SESSION 2022-11-12 09:07:11.841 -----------------------------------------------
+eclipse.buildId=3.9.6.202203281408-ga7
+java.version=1.8.0_333
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product com.liferay.ide.studio.ui.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product com.liferay.ide.studio.ui.product
+
+!ENTRY org.eclipse.egit.core 1 0 2022-11-12 09:07:39.771
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2022-11-12 09:07:41.761
+!MESSAGE Ignoring template 'log' since it has no id.
+
+!ENTRY org.eclipse.ui 4 4 2022-11-12 09:07:41.865
+!MESSAGE Referenced part does not exist yet: fast.
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2022-11-12 09:08:31.360
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2022-11-12 09:08:31.372
+!MESSAGE IvyDE plugin started
+
+!ENTRY org.eclipse.rse.core 1 0 2022-11-12 09:10:49.203
+!MESSAGE Disconnect operation timed out after 120000 milliseconds.
