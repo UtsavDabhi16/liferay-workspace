@@ -1,0 +1,10 @@
+Bundle-Name: EventDemo-api
+Bundle-SymbolicName: eventdemo.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	eventdemo.exception,\
+	eventdemo.model,\
+	eventdemo.service,\
+	eventdemo.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../EventDemo-service/service.xml

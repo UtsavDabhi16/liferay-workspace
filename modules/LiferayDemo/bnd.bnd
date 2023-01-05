@@ -1,0 +1,15 @@
+Bundle-Name: LiferayDemo
+Bundle-SymbolicName: liferaydemo
+Bundle-Version: 1.0.0
+Export-Package: liferaydemo.constants
+Include-Resource:\
+    @commons-csv-1.4.jar,\
+    @jsoup-1.15.3.jar,\
+
+Import-Package :\
+    !org.apache.*,\
+    !org.jsoup.*,\
+    !javax.annotation.meta.*,\
+    \
+    *
+

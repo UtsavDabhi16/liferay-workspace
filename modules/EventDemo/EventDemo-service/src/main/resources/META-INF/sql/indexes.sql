@@ -1,0 +1,1 @@
+create index IX_5DBC319F on Event_Data (uuid_[$COLUMN_LENGTH:75$]);

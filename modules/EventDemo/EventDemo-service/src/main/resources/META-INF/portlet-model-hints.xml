@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="eventdemo.model.Data">
+		<field name="uuid" type="String" />
+		<field name="eventId" type="long" />
+		<field name="SourceURL" type="String" />
+		<field name="hostName" type="String" />
+		<field name="Image" type="String" />
+		<field name="Address" type="String" />
+		<field name="Summary" type="String" />
+		<field name="TotalCount" type="String" />
+	</model>
+</model-hints>
